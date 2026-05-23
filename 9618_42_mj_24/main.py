@@ -28,7 +28,7 @@ class TreeClass:
             self.Tree.append(Node(-1))
 
     def Insert(self, NewNode):
-        if self.NumberNode ==0:
+        if self.NumberNode == 0:
             self.Tree[self.NumberNode] = NewNode
             self.NumberNode += 1
             self.FirstNode  = 0 
